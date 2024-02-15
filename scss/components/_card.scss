@@ -117,12 +117,6 @@ h3.card__title {
 		background-color: var.$color-cyan;
 	}
 
-	.card__group::after {
-		content: '';
-		display: table;
-		clear: both;
-	}
-
 	.card__group .card__block {
 		display: inline-block;
 		width: 50%;
