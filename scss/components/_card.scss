@@ -2,7 +2,6 @@
 @use '../abstracts/functions' as func;
 
 .card {
-	width: 100%;
 	background-color: var.$color-white;
 	margin: func.em(30, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
@@ -82,6 +81,7 @@ h3.card__title {
 @media (min-width: 48em) {
 	.card {
 		display: inline-block;
+		width: 100%;
 		max-width: func.em(640, var.$font-size-primary);
 		text-align: left;
 		vertical-align: middle;
